@@ -2,6 +2,9 @@
 
 <manifest>
 
+        <remote name="mine"
+        fetch="https://github.com/Ultron12bot" />
+
         <remote name="profile"
         fetch="https://github.com/Tester9958" />
 
@@ -29,8 +32,8 @@
         <project path="android/packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="profile" revision="arrow-12.1"/>
 
         <!-- Sync trees -->
-        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="profile" revision="Aex-back" />
-        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="profile" revision="aex-18.1" />
-        <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="profile" revision="Aex-19.0" />
+        <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="mine" revision="AXB" />
+        <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="mine" revision="lineage-19.1" />
+        <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="mine" revision="AXB" />
 
 </manifest>
