@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
+         
+        <remote name="king"
+        fetch="https://github.com/sarthakroy2002" />
 
         <remote name="profile"
         fetch="https://github.com/Tester9958" />
 
         <remote name="lost"
         fetch="https://github.com/Ultron12bot" />
+   
+        <!-- packages -->
+        <project path="vendor/nothing" name="vendor_nothing" remote="king" revision="master" />
 
         <!-- Sync trees -->
         <project path="device/asus/X01AD" name="device_asus_X01AD-2" remote="lost" revision="Evo-A11" />
