@@ -5,8 +5,11 @@
         <remote name="profile"
         fetch="https://github.com/Tester9958" />
 
+        <remote name="lost"
+        fetch="https://github.com/Ultron12bot" />
+
         <!-- Sync trees -->
-        <project path="device/asus/X01AD" name="android_device_asus_X01AD-2" remote="profile" revision="Evo-A11" />
+        <project path="device/asus/X01AD" name="device_asus_X01AD-2" remote="lost" revision="Evo-A11" />
         <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="profile" revision="lineage-18.1" />
         <project path="kernel/asus/X01AD" name="android_kernel_asus_X01AD" remote="profile" revision="EvoR" />
 
